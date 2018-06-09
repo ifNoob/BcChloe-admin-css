@@ -254,13 +254,13 @@ function admincssmu_admin_interface_render () {
 			<div style="margin-top: 5px;">
 				<input type="checkbox" name="admincssmu_custom_css[load_css]" id="admincssmu_custom_css[load_css]" value="1"
 				<?php if ( isset( $admincssmu_custom_css_option['load_css'] ) ) { checked( '1', $admincssmu_custom_css_option['load_css'] ); } ?>>
-				<label for="admincssmu_custom_css[load_css]" style="vertical-align: unset;"><?php _e('Load Admin CSS', 'admin-custom-css') ?></label>
+				<label for="admincssmu_custom_css[load_css]" style="vertical-align: unset;"><?php _e('Load Admin CSS', 'admin-custom-css') ?> (check必須)</label>
 			</div>
 
 			<div style="margin-top: 5px;">
 				<input type="checkbox" name="admincssmu_custom_css[minfy_css]" id="admincssmu_custom_css[minfy_css]" value="1"
 					<?php if ( isset( $admincssmu_custom_css_option['minfy_css'] ) ) { checked( '1', $admincssmu_custom_css_option['minfy_css'] ); } ?>>
-					<label for="admincssmu_custom_css[minfy_css]" style="vertical-align: unset;"><?php _e('Minify CSS', 'admin-custom-css') ?></label>
+					<label for="admincssmu_custom_css[minfy_css]" style="vertical-align: unset;"><?php _e('Minify CSS', 'admin-custom-css') ?> (checkは上級モード)</label>
 			</div>
 
 			<?php submit_button( __( 'Save CSS', 'admin-custom-css' ), 'primary', 'submit', true ); ?>
