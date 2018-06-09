@@ -2,21 +2,21 @@
 * Contributors: BcChloe
 * Donate link: https://github.com/ifNoob/BcChloe-admin-css
 * Author URI: https://bcchloe.jp
-* Tags: CSS, Custom CSS, Admin
+* Tags: Admin, CSS, Custom CSS
 * Requires at least: 4.x.x
 * Tested up to: 4.9.5
-* Stable tag: 1.x
+* Stable tag: 1.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 # == Description ==
-* Preparing
+* 管理画面 Custom CSS
 
 # == Docs & Support ==
 * https://bcchloe.jp
 
 # == Features ==
-* Preparing
+* 設定画面はありません、管理メニューのツールから
 
 # == Installation ==
 * Upload the plugin to the '/wp-content/plugins/' directory
@@ -33,6 +33,10 @@
 
 # == Changelog ==
 * Upgrade notice
+* = 1.2 =
+* BcChloe-custom-css plugin が可動している場合、CSS & js はそちらを優先
+* = 1.1 =
+* 管理メニューの外観からツールへ
 * = 1.0 =
 * It is Initial release
 
